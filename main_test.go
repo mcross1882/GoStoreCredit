@@ -11,7 +11,7 @@ func TestFindSolution(t *testing.T) {
     
     resA, resB := findSolution(sample)
     
-    if resA != 160 || resB != 40 {
+    if resA != 2 || resB != 5 {
         t.Fatal("findSolution(...) failed")
     }
 }
